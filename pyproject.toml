@@ -1,0 +1,18 @@
+[project]
+name = "bennagle-github-io"
+version = "0.0.1"
+description = "Initial website for Benjamin Nagle Github"
+authors = [
+    {name = "bnagl01",email = "bnagl@bu.edu"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "bennagle"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
